@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)https://api.gamer.com.tw/worker/im.html?v=2022111501 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<script src="./js.cookie-2.1.4.js.&#19979;&#36617;"></script>
+<script>
+window.onmessage = function(e) {
+let workerjs = './im.js?v=2021101902';
+if (!e.origin.match(/https:\/\/[a-z0-9]+\.gamer\.com\.tw/) && e.origin !== '') {
+return;
+}
+
+if (e.data.action !== 'BahamutImInit') {
+return;
+}
+
+if (Cookies.get('ckiOS') != undefined) {
+return;
+}
+
+if (window.SharedWorker) {
+var worker = new SharedWorker(workerjs, 'im');
+worker.port.postMessage(e.data, e.ports);
+} else {
+var worker = new Worker(workerjs);
+worker.postMessage(e.data, e.ports);
+}
+window.onmessage = null;
+};
+</script>
+</head>
+<body>
+</body></html>

@@ -1,0 +1,301 @@
+body {
+  background: url(https://i2.bahamut.com.tw/forum/html_bg_dark.gif) center top #111111;
+  color: #C7C6CB;
+}
+
+a {
+  color: #C7C6CB;
+}
+
+.BH-lbox {
+  background: #272728;
+  border: 1px solid #272728;
+}
+
+#BH-master h4 {
+  background: linear-gradient(135deg, #e4f1f5 10%, #2a869c 50%);
+}
+
+.GN-lbox3 h1 {
+  color: #F7F7F7;
+}
+.GN-lbox3 ul.platform-tag li {
+  box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.1);
+}
+.GN-lbox3 ul.bh-grids-img li figure {
+  color: #999999;
+}
+.GN-lbox3 .GN-lbox3A {
+  border-bottom: 1px solid #585858;
+}
+.GN-lbox3 .GN-lbox3B {
+  color: #F7F7F7;
+}
+.GN-lbox3 .GN-lbox3B a {
+  color: #00B0B6;
+}
+.GN-lbox3 .GN-lbox3B font {
+  color: #F7F7F7;
+}
+.GN-lbox3 .GN-lbox3B h1 {
+  color: #00B0B6;
+}
+.GN-lbox3 .GN-lbox3B h2 {
+  color: #00B0B6;
+  border-bottom: 1px solid #585858;
+}
+.GN-lbox3 .GN-lbox3B h3 {
+  color: #00B0B6;
+}
+.GN-lbox3 .GN-lbox3B p.pic-desc, .GN-lbox3 .GN-lbox3B p.common-desc {
+  color: #999999;
+}
+.GN-lbox3 .GN-lbox3B p.quote-box {
+  background-color: #323232;
+  color: #C7C6CB;
+}
+.GN-lbox3 .GN-lbox3B .acglink {
+  color: #00B0B6;
+}
+.GN-lbox3 .GN-lbox3B table.gnn-table {
+  border: 2px solid #1C1C1C;
+}
+.GN-lbox3 .GN-lbox3B table.gnn-table td {
+  background-color: #323232 !important;
+  border: 1px solid #1C1C1C;
+}
+.GN-lbox3 .GN-lbox3B .header-banner-main {
+  border: 1px solid #323232;
+}
+.GN-lbox3 .GN-lbox3B .slider-count {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.GN-lbox3 .GN-lbox3B .slick-prev, .GN-lbox3 .GN-lbox3B .slick-next {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.GN-lbox3 .GN-lbox3B .slick-prev:hover, .GN-lbox3 .GN-lbox3B .slick-next:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.GN-lbox3 .GN-lbox3B .slick-prev > div, .GN-lbox3 .GN-lbox3B .slick-next > div {
+  background-color: #F7F7F7;
+}
+.GN-lbox3 .GN-lbox3E a {
+  color: #00B0B6;
+}
+
+.GN-lbox3B .article_gamercard {
+  background-color: #1C1C1C !important;
+}
+.GN-lbox3B .article_gamercard a.gamecard__follow.is-active {
+  background-color: #444444 !important;
+  color: #C7C6CB !important;
+}
+.GN-lbox3B .article_gamercard a.gamecard__follow.is-active:hover {
+  background-color: #444444 !important;
+  color: #C7C6CB !important;
+}
+.GN-lbox3B .article_gamercard .gamecard__gamer.gamecard__gamer-more {
+  background-color: #444444 !important;
+  color: #C7C6CB !important;
+}
+
+.baha_btn-biglike .likebtn-img .backpic {
+  background: url(https://i2.bahamut.com.tw/icon/ic_post_comment_like_unselect_dark.png);
+  background-size: 24px;
+}
+
+.baha-hoverbtn-features svg:hover {
+  background: #1C1C1C;
+}
+
+.tippy-popper .tippy-tooltip.light-theme {
+  background-color: #1C1C1C !important;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1), 0 1px 6px rgba(0, 0, 0, 0.05), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1), 8px 32px 32px rgba(0, 0, 0, 0.15), 8px 64px 64px rgba(0, 0, 0, 0.15) !important;
+}
+
+.dropdown-menu ul li a {
+  color: #F7F7F7;
+}
+.dropdown-menu ul li a:hover {
+  background: #00B0B6;
+}
+
+.tippy-popper[x-placement^=top] .tippy-tooltip.light-theme [x-arrow] {
+  border-top-color: #1C1C1C !important;
+}
+
+.desk_ec-block .BH-lbox .ec-slider-list .scroll-card > a {
+  background: #272728;
+  border-bottom: 1px solid #444444;
+}
+.desk_ec-block .BH-lbox .ec-slider-list .scroll-card > a .product-info p {
+  color: #F7F7F7 !important;
+}
+.desk_ec-block .BH-lbox .ec-slider-list .scroll-card > a .calltobuy {
+  color: #00B0B6;
+  border-top: 1px solid #444444;
+}
+.desk_ec-block .BH-lbox .ec-slider-list .scroll-card > a:hover .calltobuy {
+  background: #00B0B6;
+  color: #F7F7F7;
+}
+
+.fb_iframe_widget {
+  background: #FFFFFF;
+}
+
+.GN-lbox6 .GN-lbox4A a {
+  color: #C7C6CB;
+}
+.GN-lbox6 .GN-lbox6A {
+  background: #1C1C1C;
+  border-color: #444444;
+}
+.GN-lbox6 .GN-lbox6A a {
+  color: #00B0B6;
+}
+.GN-lbox6 .GN-lbox6A .comment-text {
+  color: #C7C6CB;
+}
+.GN-lbox6 .GN-lbox6A button {
+  background: #444;
+  color: #C7C6CB;
+  border-radius: 4px;
+  border: 2px solid #323232;
+}
+.GN-lbox6 .GN-lbox6A button:hover {
+  background: #00B0B6;
+  color: #f7f7f7;
+  border: 2px solid #117E96;
+}
+.GN-lbox6 .GN-lbox6B {
+  background-color: #272728;
+}
+.GN-lbox6 .GN-lbox6B input {
+  background-color: #1C1C1C;
+  border: 1px solid #444444;
+  color: #f7f7f7;
+}
+
+.gnn-promotenews .promotenews-btn-more {
+  background: #00B0B6;
+}
+.gnn-promotenews .promotenews-related {
+  border-bottom: 1px solid #444444;
+  color: #f7f7f7;
+}
+.gnn-promotenews .promotenews-related:hover {
+  color: #00B0B6;
+}
+.gnn-promotenews .promotenews-info .info-interactive-container .info-interactive img {
+  filter: brightness(8);
+}
+.gnn-promotenews .promotenews-maybelike .promotenews-content .title {
+  color: #f7f7f7;
+}
+.gnn-promotenews .promotenews-maybelike:hover .promotenews-content .title {
+  color: #00B0B6;
+}
+
+.gnn-label .label {
+  background: #444444;
+  color: #00B0B6;
+}
+.gnn-label .label:hover {
+  background: #00B0B6;
+}
+
+.GN-lbox2A {
+  border-bottom: 1px solid #585858;
+}
+.GN-lbox2A a + a {
+  color: #00B0B6;
+}
+
+.GN-lbox2B {
+  border-bottom: 1px solid #444444;
+}
+
+.GN-lbox2D a {
+  color: #00B0B6;
+}
+.GN-lbox2D span {
+  color: #999999;
+}
+
+.GN-lbox2C a {
+  color: #009CAD;
+  text-decoration: none;
+}
+
+.GN-lbox2F {
+  border-bottom: 1px solid #444444;
+}
+.GN-lbox2F a {
+  color: #00B0B6;
+}
+.GN-lbox2F span {
+  color: #999999;
+}
+
+.GN-gczlist a {
+  text-decoration: none;
+}
+.GN-gczlist a:hover span {
+  color: #00B0B6;
+}
+.GN-gczlist .GN-gczbox span {
+  background: rgba(0, 0, 0, 0.7);
+}
+.GN-gczlist .GN-gczbox span i {
+  color: #C7C6CB;
+  text-shadow: none;
+}
+
+.IMG-E43 {
+  filter: invert(1);
+}
+
+.BH-master_tag1 a {
+  border: 1px solid #444444;
+  background: #444444;
+}
+.BH-master_tag1 .BH-master_tag1now {
+  background: #272728;
+  border-bottom: 1px solid #272728;
+  color: #f7f7f7;
+}
+
+#BH-slave h5 {
+  background-color: rgba(0, 177, 183, 0.3);
+  color: #F7F7F7;
+}
+
+.GN-rbox2 {
+  background: #272728;
+  border: 1px solid rgba(66, 148, 165, 0.1);
+}
+.GN-rbox2 .GN-rbox2B li {
+  border-bottom: 1px solid #444444;
+}
+.GN-rbox2 .GN-rbox2B span {
+  background-color: #009CAD;
+}
+.GN-rbox2 .GN-rbox2B a {
+  color: #00B0B6;
+}
+
+#BH-master .themepage-title-entrance-old a a {
+  color: #FFF;
+}
+#BH-master .themepage-title-entrance-old a a i {
+  color: #FFF;
+}
+.sharebtn-container_collapse p, .article-footer_right-btn p, .sharebtn-container_collapse .fa-share-alt {
+  color: #C7C6CB;
+}
+.article-footer_right-btn:hover, .sharebtn-container_collapse-share:hover {
+  color: #00B0B6;
+}
+
+/*# sourceMappingURL=gnn_dark.css.map */

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)https://api.gamer.com.tw/worker/signin.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<script>
+window.onmessage = function(e) {
+if (!e.origin.match(/https:\/\/[a-z0-9]+\.gamer\.com\.tw/) && e.origin !== '') {
+return;
+}
+let d = new Date();
+let today = d.toLocaleDateString('zh-tw',{timeZone:'Asia/Taipei'});
+let debug = localStorage.getItem('Signin_debug');
+
+if (debug != null) {
+parent.postMessage('debug','*');
+}
+
+if (e.data.action == 'finish') {
+localStorage.setItem('Signin_'+e.data.userid, today);
+return;
+}
+
+if (e.data.action == 'need_show_dialog') {
+localStorage.setItem('Need_Show_Signin_'+e.data.userid, today);
+return;
+}
+
+if (e.data.action == 'show_dialog_done') {
+localStorage.removeItem('Need_Show_Signin_'+e.data.userid, today);
+return;
+}
+
+if (e.data.action == 'check') {
+let Signin = localStorage.getItem('Signin_'+e.data.userid);
+let showSigninDialog = localStorage.getItem('Need_Show_Signin_'+e.data.userid);
+if (Signin == null || Signin != today) {
+parent.postMessage('auto_signin', e.origin);
+} else if (Signin == today && showSigninDialog == today) {
+parent.postMessage('show_dialog', e.origin);
+} else if (debug == 1) {
+parent.postMessage('auto_signin', e.origin);
+}
+return;
+}
+
+if (e.data.action == 'debug') {
+let debug = localStorage.getItem('Signin_debug');
+
+if (debug == null) {
+localStorage.setItem('Signin_debug', '1');
+console.log('debug open');
+} else {
+localStorage.removeItem('Signin_debug');
+console.log('debug close');
+}
+}
+};
+</script>
+</head>
+<body>
+</body></html>

@@ -1,0 +1,2442 @@
+@charset "utf-8";
+
+/* ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■資料頁部分■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■ */
+
+/* ------1.遊戲資料區塊------ */
+.ACG-mster_box1 {
+  position: relative;
+  background: url(https://i2.bahamut.com.tw/acg/acg_box1bg.gif) #FFFFFF repeat-x;
+}
+
+#ACG-box1pic {
+  width: 240px;
+  height: 240px;
+  background-color: #e5e5e5;
+  margin: 16px;
+  border: 5px solid #e5e5e5;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  float: left;
+}
+
+#ACG-box1pic * {
+  vertical-align: middle;
+  max-height: 240px;
+  max-width: 240px;
+}
+
+#ACG-box1pic span {
+  height: 100%;
+  display: inline-block;
+}
+
+.ACG-box1free {
+  display: block;
+  width: 250px;
+  height: 33px;
+  float: left;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.ACG-mster_box1 h1 {
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 26px;
+}
+
+.ACG-mster_box1 h2 {
+  margin-bottom: 8px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.ACG-info-container {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.ACG-box1listA {
+  margin: 5px 0 0 0;
+  padding: 0;
+  line-height: 22px;
+}
+
+.ACG-box1listA li {
+  padding: 0 0 0 10px;
+  background: url(https://i2.bahamut.com.tw/icon_list1.gif) no-repeat left 7px;
+  display: block;
+  width: calc(50% - 10px);
+  float: left;
+  border-bottom: 1px dotted #e5e5e5;
+}
+
+.ACG-box1listB {
+  margin-bottom: 5px;
+  word-wrap: break-word;
+  line-height: 20px;
+}
+
+.ACG-box1listB li {
+  padding: 0 0 0 10px;
+  background: url(https://i2.bahamut.com.tw/icon_list1.gif) no-repeat left 7px;
+  border-bottom: 1px dotted #e5e5e5;
+}
+
+.ACG-box1listB a {
+  color: #0055aa;
+  display: inline-block;
+  max-width: 225px;
+  white-space: nowrap;
+  vertical-align: top;
+}
+
+.ACG-box1listB span {
+  white-space: nowrap;
+}
+
+#ACG-box1mark {
+  padding: 3px 5px 10px 0;
+}
+
+#ACG-box1mark img {
+  margin-right: 5px;
+  max-height: 50px;
+}
+
+#ACG-box1mark a {
+  float: right;
+  margin-top: 30px;
+}
+
+
+/* ------2.攻略百科區塊------ */
+.ACG-mster_box2 {}
+
+.ACG-mster_box2 cite {
+  background-color: #f6f6f6;
+  border-bottom: 1px dashed #e5e5e5;
+  margin-bottom: 10px;
+}
+
+.ACG-searchbar {
+  font-size: 12px;
+  padding: 10px;
+}
+
+.ACG-searchbar select {
+  float: right;
+}
+
+.ACG-searchbar input {
+  vertical-align: middle;
+  border: 1px solid #333333;
+  line-height: 20px;
+  height: 20px;
+  padding-left: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.ACG-searchbar button {
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+.ACG-searchbar p {
+  padding-top: 3px;
+}
+
+.ACG-mster_box2 h1 {
+  font-weight: bold;
+  border-bottom: 1px solid #CCCCCC;
+  margin: 0 10px 10px 10px;
+  padding: 10px 0 5px 15px;
+  font-size: 18px;
+  clear: both;
+  background: url(https://i2.bahamut.com.tw/icon_blue.gif) no-repeat left center;
+}
+
+.ACG-wikibox {
+  color: #999999;
+  font-size: 12px;
+  width: 204px;
+  padding: 5px;
+  border: 1px solid #e5e5e5;
+  background: url(https://i2.bahamut.com.tw/acg/acg_box1bg.gif) repeat-x;
+  word-wrap: break-word;
+  margin: 0 0 10px 10px;
+  max-height: 200px;
+  overflow: auto;
+  height: expression(this.scrollHeight > 200 ? "200px" : "auto");
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+}
+
+.ACG-wikibox strong {
+  font-weight: bold;
+  font-size: 15px;
+  display: block;
+  border-bottom: 1px dotted #CCCCCC;
+  margin-bottom: 5px;
+  padding: 2px 5px;
+  color: #6699CC;
+}
+
+.ACG-wikibox strong a {
+  color: #0055aa;
+  border-right: none;
+  line-height: 18px;
+}
+
+.ACG-wikibox a {
+  padding: 0 5px;
+  line-height: 16px;
+  border-right: 1px solid #CCCCCC;
+  display: inline-block;
+  margin: 2px 0;
+}
+
+.ACG-wikisel {
+  margin: 10px;
+  font-size: 12px;
+  text-align: right;
+}
+
+.ACG-wikisel a+a {
+  display: inline-block;
+  background-image: url(https://i2.bahamut.com.tw/imgx.gif);
+  background-repeat: repeat-x;
+  background-position: left -299px;
+  border: 1px solid #6e93b8;
+  padding: 0 10px;
+  height: 23px;
+  line-height: 23px;
+  vertical-align: top;
+  text-align: center;
+  margin-left: 5px;
+}
+
+.ACG-wikisel a+a:hover {
+  color: #0033cc;
+  text-decoration: none;
+}
+
+.ACG-push {
+  display: inline-block;
+  background-image: url(https://i2.bahamut.com.tw/imgs.png);
+  background-repeat: repeat-x;
+  background-position: left -720px;
+  width: 80px;
+  height: 25px;
+  text-align: center;
+  line-height: 25px;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 0;
+  border: 0;
+}
+
+.ACG-push:hover {
+  text-decoration: none;
+  color: #990000;
+  background-position: left -745px;
+}
+
+/* ------3.遊戲新聞區塊------ */
+.ACG-mster_box3 {}
+
+.ACG-mster_box3 img {
+  border: 3px solid #e5e5e5;
+  margin: 10px;
+  float: left;
+}
+
+.ACG-mster_box3.BH-lbox img {
+  max-height: 180px;
+  max-width: 180px;
+}
+
+.ACG-newstitle {
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 3px 10px 10px 0;
+  border-bottom: 1px dotted #e5e5e5;
+  _width: 460px;
+}
+
+.ACG-newstitle img {
+  border: none;
+  float: none;
+  vertical-align: middle;
+}
+
+.ACG-mster_box3 p {
+  padding: 0 10px;
+  line-height: 22px;
+}
+
+.ACG-mster_box3 ul {
+  list-style-type: disc;
+  clear: both;
+  padding-left: 30px;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 15px 10px 0 0;
+  _width: 630px;
+}
+
+.ACG-mster_box3 li {
+  padding: 5px 0;
+  border-top: 1px dotted #e5e5e5;
+}
+
+
+
+/* ------4.哈啦板精華文章區塊------ */
+.ACG-mster_box4 {
+  padding-bottom: 10px;
+}
+
+.ACG-mster_box4 div {
+  width: calc(50% - 16px);
+  display: inline-block;
+  vertical-align: top;
+  margin: 10px 0 0 10px;
+  border-bottom: 1px dotted #CCCCCC;
+  padding-bottom: 5px;
+  _width: 320px;
+  zoom: 1;
+  *display: inline;
+}
+
+.ACG-mster_box4 img {
+  float: left;
+  max-width: 40px;
+  max-height: 40px;
+}
+
+.ACG-mster_box4 strong {
+  font-weight: bold;
+  line-height: 40px;
+  padding: 0 5px;
+  display: block;
+  background-color: #f6f6f6;
+  margin-left: 45px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.ACG-mster_box4 p {
+  line-height: 22px;
+  padding-right: 10px;
+  word-wrap: break-word;
+}
+
+
+
+/* ------5.最新玩家心得區塊------ */
+.ACG-mster_box5 {}
+
+.ACG-mster_box5 div {
+  padding: 10px 0;
+  margin: 0 10px;
+  border-bottom: 1px dotted #CCCCCC;
+  overflow: auto;
+  clear: both;
+}
+
+.ACG-mster_box5 img {
+  float: left;
+}
+
+.ACG-mster_box5 strong {
+  display: block;
+  background-color: #f6f6f6;
+  padding-left: 10px;
+  font-weight: bold;
+  margin-left: 45px;
+  line-height: 24px;
+  height: 24px;
+  overflow: hidden;
+  white-space: nowrap;
+  _width: 78%;
+}
+
+.ACG-mster_box5 span {
+  display: block;
+  border: 1px solid #CCCCCC;
+  background-color: #FFFFFF;
+  text-align: center;
+  color: #FF0000;
+  padding: 0 10px;
+  line-height: 22px;
+  float: right;
+  margin-left: 5px;
+  font-size: 12px;
+}
+
+.ACG-mster_box5 p {
+  padding: 5px 5px 5px 45px;
+  line-height: 22px;
+}
+
+.ACG-mster_box5 .clearfloat {
+  padding: 0;
+}
+
+
+
+/* ------6.介紹區塊------ */
+.ACG-mster_box6 cite {
+  border-bottom: 1px solid #e5e5e5;
+  margin: 0 10px 5px 10px;
+  padding-right: 0;
+}
+
+.ACG-mster_box6 .bahaRte {
+  margin: 4px auto;
+}
+
+.ACG-mster_box6 p {
+  max-width: 685px;
+  margin: 4px auto;
+}
+
+
+
+/* ------左側各區塊底按鈕------ */
+.BH-master_more2 {}
+
+.BH-master_more2 img {
+  border: none;
+  margin: 0;
+  float: none;
+}
+
+
+
+/* ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■內頁部分■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■ */
+/* ------列表頁list.html------ */
+.ACG-mster_list {
+  padding-top: 10px;
+}
+
+.ACG-mster_list .user-info {
+  float: left;
+  margin: 0 0 10px 10px;
+}
+
+.ACG-mster_list .user-info img {
+  max-height: 40px;
+  max-width: 40px;
+}
+
+/* ------圖片影片頁video.html------ */
+.ACG-mster_videos {
+  padding-bottom: 10px;
+}
+
+.ACG-mster_videos p {
+  width: 123px;
+  font-size: 12px;
+  display: block;
+  float: left;
+  margin: 10px 0 0 10px;
+  background-color: #e5e5e5;
+}
+
+.ACG-mster_videos span {
+  padding-left: 3px;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+  _width: 95px;
+}
+
+.ACG-mster_videos img {
+  display: block;
+  border: 2px solid #e5e5e5;
+  margin-bottom: 2px;
+  max-width: 120px;
+  max-height: 120px;
+}
+
+.ACG-mster_videos a {
+  display: block;
+  background-image: url(https://i2.bahamut.com.tw/icon_del.gif);
+  width: 14px;
+  height: 14px;
+  float: right;
+  margin: 0 3px 4px 3px;
+}
+
+.ACG-mster_videos a:hover {
+  background-position: bottom;
+}
+
+/* ------玩家心得gained.html(延用主頁設定)------ */
+.ACG-gained {}
+
+.ACG-gained1 {
+  padding: 10px 0;
+  margin: 0 10px;
+  border-bottom: 1px dotted #CCCCCC;
+  overflow: auto;
+  clear: both;
+}
+
+.ACG-gained2 {
+  width: 120px;
+  height: 120px;
+  background-color: #e5e5e5;
+  float: left;
+  font-size: 0;
+  line-height: 0;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.ACG-gained2 span {
+  display: inline-block;
+  height: 100%;
+}
+
+.ACG-gained2 * {
+  vertical-align: middle;
+  max-width: 120px;
+  max-height: 120px;
+}
+
+.ACG-gained strong {
+  display: block;
+  padding-left: 10px;
+  font-weight: bold;
+  margin-left: 125px;
+  line-height: 24px;
+  height: 24px;
+  overflow: hidden;
+  white-space: nowrap;
+  _width: 78%;
+}
+
+.ACG-gained strong a {
+  color: #0055aa;
+}
+
+.ACG-gained3 {
+  display: block;
+  border: 1px solid #CCCCCC;
+  background-color: #FFFFFF;
+  text-align: center;
+  color: #FF0000;
+  padding: 0 10px;
+  line-height: 22px;
+  float: right;
+  margin-left: 5px;
+  font-size: 12px;
+}
+
+.ACG-gained p {
+  padding: 5px 5px 5px 125px;
+  line-height: 22px;
+}
+
+.ACG-gained .clearfloat {
+  padding: 0;
+}
+
+.ACG-gained1 ul {
+  padding: 5px 0 0 120px;
+}
+
+.ACG-gained1 li {
+  display: inline;
+  font-size: 12px;
+  background: url(https://i2.bahamut.com.tw/index_w/b_icon3.gif) left center no-repeat;
+  padding-left: 8px;
+  margin-left: 10px;
+}
+
+.ACG-gained1 span {
+  color: #FF0000;
+}
+
+.ACG-gained .ACG-gained4 {
+  padding: 0 5px;
+  font-size: 12px;
+  color: #999999;
+  float: right;
+}
+
+/* ------玩家簽到sign.html------ */
+.ACG-master_sign {}
+
+.ACG-signbox {
+  padding: 10px 0;
+  border-bottom: 1px dotted #CCCCCC;
+  margin: 0 10px;
+}
+
+.ACG-signbox div {
+  margin-left: 45px;
+  background-color: #e9f5f4;
+  padding: 5px;
+  -moz-border-radius: 10px;
+  word-wrap: break-word;
+}
+
+.ACG-signbox img {
+  float: left;
+}
+
+.ACG-signlist1 {
+  line-height: 20px;
+  color: #117e96;
+}
+
+.ACG-signlist2 {
+  font-size: 12px;
+  padding-top: 3px;
+}
+
+.ACG-signlist2 span {
+  margin: 3px;
+  padding: 2px 7px;
+  border: 1px solid #e5e5e5;
+  float: right;
+}
+
+.ACG-signlist2 img {
+  float: none;
+  vertical-align: middle;
+}
+
+.ACG-signlist3 {
+  font-size: 12px;
+  text-align: right;
+  clear: both;
+}
+
+
+/* ------攻略項目wiki.html(延用主頁設定)------ */
+.ACG-wikindex {
+  width: 325px;
+  background-color: #e5f7f9;
+  border: 1px solid #b7e9f0;
+  padding: 5px;
+  font-size: 13px;
+  margin-bottom: 35px;
+}
+
+.ACG-wikindex p {
+  background-color: #b8eaeb;
+  padding: 0 5px;
+  border-top: 1px solid #85d2d8;
+}
+
+.ACG-wikindex p>img {
+  vertical-align: middle;
+  margin-right: 3px;
+}
+
+.ACG-wikindex p a {
+  float: right;
+  margin: 3px 0 0 5px;
+}
+
+.ACG-wikindex div {
+  border: 1px solid #b7e9f0;
+  background-color: #f8ffff;
+}
+
+.ACG-wikindex ul,
+.ACG-wikindex ol {
+  list-style-type: decimal !important;
+}
+
+
+/* ------攻略選單編輯頁wiki-edit.html------ */
+.ACG-wikiedit {}
+
+.ACG-wikiedit table {
+  margin: 10px auto;
+}
+
+.ACG-wikiedit td {
+  text-align: center;
+}
+
+.ACG-wikiedit button {
+  padding: 0 5px;
+}
+
+.ACG-wikiedit input {
+  padding: 1px;
+}
+
+.ACG-wikieditsave {
+  color: #FF0000;
+  font-size: 12px;
+  text-align: center;
+  padding: 10px;
+}
+
+.ACG-wikieditsave button {
+  margin: 0 5px 5px 5px;
+}
+
+.ACG-wikieditsave form p {
+  max-width: 654px;
+  margin: 4px auto;
+}
+
+
+/* ------編輯基本資料createEdit.html------ */
+.ACG-attention {
+  border: 1px solid #FF0000;
+  padding: 10px;
+  width: 580px;
+  margin: 10px auto 0 auto;
+  color: #FF0000;
+  line-height: 24px;
+}
+
+.ACG-cedittop {
+  text-align: right;
+  width: 670px;
+  margin: 10px auto 0 auto;
+  padding-bottom: 5px;
+}
+
+.ACG-cedittable {
+  width: 670px;
+  margin: 0 auto;
+  line-height: 24px;
+}
+
+.ACG-cedittbtitle {
+  background-color: #6699CC;
+  color: #FFFFFF;
+}
+
+
+/* ------內頁上方區塊共用------ */
+.ACG-pagetop {
+  display: block;
+  border-bottom: 1px solid #e5e5e5;
+  margin: 10px 10px 0 10px;
+  padding: 5px 0;
+  text-align: right;
+  overflow: auto;
+  clear: both;
+  _height: 1%;
+}
+
+.ACG-pagetop p {
+  float: left;
+}
+
+.ACG-pagetop input {
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+.ACG-pagetop select {
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+.ACG-pagetop button {
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+.ACG-pagetop span {
+  color: #FF0000;
+  font-weight: bold;
+  display: inline;
+  float: none;
+  font-size: 15px;
+  padding: 0;
+  border: none;
+}
+
+
+/* ------玩家排行榜------ */
+.ACG-ranklist {
+  padding: 10px 0;
+  margin: 0 10px;
+  border-bottom: 1px dotted #CCCCCC;
+  overflow: auto;
+}
+
+.ACG-ranklist div {
+  margin-left: 45px;
+}
+
+.ACG-ranklist img {
+  float: left;
+}
+
+.ACG-ranklist1 {
+  line-height: 20px;
+  color: #117e96;
+  background-color: #e9f5f4;
+  padding: 5px;
+  margin-top: 5px;
+  -moz-border-radius: 10px;
+  word-wrap: break-word;
+}
+
+.ACG-ranklist2 {}
+
+.ACG-ranklist2 span {
+  color: #FF0000;
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.ACG-ranklist2 a {
+  font-size: 20px;
+}
+
+.ACG-ranklist3 {
+  float: right;
+}
+
+.ACG-ranklist3 span {
+  padding: 3px 5px;
+  border: 1px solid #e5e5e5;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+/* ------試閱、直接玩與創作遊戲列表頁------ */
+.ACG-nowplay {
+  padding-bottom: 10px;
+}
+
+#.ACG-nowplay1 {
+  width: 120px;
+  margin: 10px 0 0 12px;
+  text-align: center;
+  line-height: 16px;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: top;
+  *display: inline;
+  *margin-left: 14px;
+  zoom: 1;
+}
+
+.ACG-nowplay1 {
+  width: 120px;
+  margin: 10px 0 8px 12px;
+  text-align: center;
+  line-height: 16px;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+}
+
+.ACG-nowplay2 {
+  width: 120px;
+  height: 120px;
+  background-color: #e5e5e5;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.ACG-nowplay2 span {
+  display: inline-block;
+  height: 100%;
+}
+
+.ACG-nowplay2 * {
+  vertical-align: middle;
+}
+
+.ACG-nowplay1 a {
+  font-weight: bold;
+  color: #6699CC;
+  padding-top: 5px;
+  display: block;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.ACG-nowplay1 span {
+  font-size: 12px;
+  color: #666666;
+  display: block;
+  width: 120px;
+}
+
+.ACG-nowplay2 a {
+  padding: 0;
+}
+
+/* ------直接玩頁(新版)------ */
+.ACG-dplay {
+  padding-bottom: 10px;
+  font-size: 13px;
+}
+
+.ACG-dplay div {
+  width: 200px;
+  float: left;
+  margin: 22px 0 0 22px;
+  text-align: center;
+  position: relative;
+}
+
+.ACG-dplay p {
+  display: block;
+  position: absolute;
+  padding: 5px;
+  width: 190px;
+  color: #FFFFFF;
+  background: rgba(0, 0, 0, 0.5);
+  left: 0;
+  bottom: 30px;
+}
+
+.ACG-dplay p a {
+  display: block;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.ACG-dplay p span {
+  display: block;
+  text-align: left;
+}
+
+.ACG-dplay1 {
+  display: block;
+  width: 200px;
+  height: 200px;
+  background-color: #f6f6f6;
+  position: relative;
+}
+
+.ACG-dplay img {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 200px;
+  max-height: 200px;
+  z-index: 0;
+}
+
+.ACG-dplay2 {
+  display: block;
+  margin-top: 5px;
+}
+
+.ACG-dplay2 a {
+  display: block;
+  text-align: center;
+  table-layout: fixed;
+  line-height: 23px;
+  border-radius: 3px;
+  float: left;
+  margin-left: 2px;
+}
+
+.ACG-dplay2 a:first-child {
+  width: 80px;
+  border: 1px solid #b4cbdd;
+  margin: 0;
+  background: url(https://i2.bahamut.com.tw/acg/nowplaybtn2.png) repeat-x;
+}
+
+.ACG-dplay2 a+a {
+  width: 55px;
+  border: 1px solid #c2c2a6;
+  background: url(https://i2.bahamut.com.tw/acg/nowplaybtn1.png) repeat-x;
+}
+
+.ACG-dplay2 .none {
+  border-color: #e5e5e5;
+  background: none;
+  background-color: #E5E5E5;
+  color: #BBBBBB;
+}
+
+.ACG-dplay2 a:hover {
+  text-decoration: none;
+  color: #464646;
+}
+
+.ACG-dplay2 .none:hover {
+  color: #BBBBBB;
+}
+
+/* ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■右側區塊■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■ */
+/* ------修改BH右側標題------ */
+h5 a {
+  color: #FFFF00;
+}
+
+h5 a:hover {
+  color: #0066FF;
+}
+
+
+/* ------作品評價區塊------ */
+.ACG-list1 {
+  padding-bottom: 10px;
+}
+
+.ACG-list1tb {
+  margin: 10px auto 0 auto;
+  clear: both;
+}
+
+.ACG-list1tb ul {
+  float: left;
+}
+
+.ACG-list1tb li {}
+
+.ACG-list1tb td {
+  padding: 3px;
+  border: 1px solid #FFCC00;
+}
+
+.ACG-list1score {
+  font-size: 36px;
+  font-weight: bold;
+  color: #FF0000;
+  line-height: 36px;
+  text-align: center;
+  vertical-align: middle;
+  width: 80px;
+}
+
+.ACG-list1score p {
+  padding: 3px 0;
+}
+
+.ACG-list1score span {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: normal;
+  color: #464646;
+  display: block;
+}
+
+.ACG-list1chart {}
+
+.ACG-list1chart li {
+  line-height: 16px;
+  height: 16px;
+  background-color: #e5e5e5;
+  width: 125px;
+  margin: 0 0 0 3px;
+  border: 1px solid #FFFFFF;
+  position: relative;
+  vertical-align: middle;
+}
+
+.ACG-chart1 {
+  background-image: url(https://i2.bahamut.com.tw/acg/acg-chart2.gif);
+  height: 16px;
+}
+
+.ACG-chart2 {
+  background-image: url(https://i2.bahamut.com.tw/acg/acg-chart1.gif);
+  height: 16px;
+}
+
+.ACG-chart3 {
+  background-image: url(https://i2.bahamut.com.tw/acg/acg-chart5.gif);
+  height: 16px;
+}
+
+.ACG-chart4 {
+  background-image: url(https://i2.bahamut.com.tw/acg/acg-chart4.gif);
+  height: 16px;
+}
+
+.ACG-chart5 {
+  background-image: url(https://i2.bahamut.com.tw/acg/acg-chart3.gif);
+  height: 16px;
+}
+
+.ACG-list1chart span {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 10px;
+}
+
+.ACG-list1star {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 15px;
+}
+
+.ACG-list1star img {
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+.ACG-list1btn {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.ACG-list1btn .ACG-list2left {
+  display: inline-block;
+  vertical-align: bottom;
+  background-image: url(https://i2.bahamut.com.tw/acg/btn_left3.gif);
+  width: 120px;
+  height: 25px;
+  margin-right: 5px;
+  *display: inline;
+  zoom: 1;
+}
+
+.ACG-list1btn .ACG-list2right {
+  display: inline-block;
+  vertical-align: bottom;
+  background-image: url(https://i2.bahamut.com.tw/acg/btn_right3.gif);
+  width: 120px;
+  height: 25px;
+  *display: inline;
+  zoom: 1;
+}
+
+.ACG-list1btn a:hover {
+  background-position: bottom;
+}
+
+.ACG-Star1 {
+  width: 26px;
+  height: 25px;
+  background-image: url(https://i2.bahamut.com.tw/acg/star.png?v=1);
+}
+
+.ACG-Star0 {
+  width: 26px;
+  height: 25px;
+  background-image: url(https://i2.bahamut.com.tw/acg/star_none.png?v=1);
+}
+
+
+/* ------網友評價------ */
+.ACG-rbox3 {
+  overflow: unset;
+}
+
+.ACG-rbox3B {
+  line-height: 27px;
+  padding: 10px 0;
+  margin: 10px 10px 0 10px;
+  text-align: center;
+  font-size: 16px;
+  border-top: 1px solid #e5e5e5;
+}
+
+.ACG-rbox3B img {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+/* ------網友評價(新版)------ */
+.ACG-box {
+  width: 275px;
+}
+
+.ACG-score {
+  width: 105px;
+  height: 105px;
+  border-radius: 105px;
+  -webkit-border-radius: 105px;
+  border: 10px solid #297D97;
+  float: left;
+  margin: 15px 5px 0 5px;
+  font-size: 50px;
+  line-height: 100px;
+  color: #297D97;
+  text-align: center;
+  position: relative;
+}
+
+.ACG-score:after {
+  content: "網友給的 1 / 2 / 3 / 4 / 5 星評價，將對應到 3.9 / 5.4 / 6.9 / 8.4 / 9.9 分，加總後計算平均值，最低 3.9 分，最高 9.9 分。";
+  position: absolute;
+  display: none;
+  padding: 4px 4px 4px 12px;
+  width: 266px;
+  left: -8%;
+  bottom: -56px;
+  font-size: 13px;
+  line-height: 21px;
+  text-align: left;
+  background-color: rgba(16, 148, 161, 0.9);
+  color: #fff;
+  border-radius: 0 12px 12px 12px;
+  box-shadow: 0px 0px 8px 1px rgba(150, 150, 150, .5);
+  z-index: 999;
+}
+
+.ACG-score:hover:after {
+  display: inline-block;
+}
+
+.ACG-score span {
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  bottom: 15px;
+  color: #333;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.ACG-data ul {
+  float: left;
+  margin-top: 15px;
+  line-height: 23px;
+  font-size: 13px;
+}
+
+.ACG-persent {
+  width: 69px;
+  margin-left: 5px;
+}
+
+.ACG-persent li {
+  position: relative;
+}
+
+.ACG-persent p {
+  display: inline-block;
+  height: 15px;
+  vertical-align: middle;
+}
+
+.ACG-persent span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #000;
+}
+
+.ACG-rbox4B {
+  font-size: 15px;
+  color: #297D97;
+  text-align: center;
+  line-height: 30px;
+  padding: 8px 0;
+  clear: both;
+}
+
+.ACG-rbox4B a:first-child {
+  margin-left: 10px;
+}
+
+.ACG-rbox4B a {
+  vertical-align: middle;
+}
+
+
+/* ------圖片影片區塊------ */
+.ACG-list2 {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.ACG-list2 img {
+  margin: 5px;
+  vertical-align: middle;
+  border: 3px solid #e5e5e5;
+  max-width: 170px;
+  max-height: 170px;
+}
+
+.ACG-list2 p {
+  border-bottom: 1px solid #e5e5e5;
+  padding: 5px;
+  overflow: auto;
+  margin: 0 10px 5px 10px;
+  _height: 1%;
+}
+
+.ACG-list2 .ACG-list2left {
+  display: inline-block;
+  background-image: url(https://i2.bahamut.com.tw/acg/btn_left3.gif);
+  width: 120px;
+  height: 25px;
+  margin-right: 5px;
+  *display: inline;
+  zoom: 1;
+}
+
+.ACG-list2 .ACG-list2right {
+  display: inline-block;
+  background-image: url(https://i2.bahamut.com.tw/acg/btn_right3.gif);
+  width: 120px;
+  height: 25px;
+  *display: inline;
+  zoom: 1;
+}
+
+.ACG-list2 a:hover {
+  background-position: bottom;
+}
+
+
+/* ------收藏本作品的網友也收藏了區塊------ */
+.ACG-list3 {}
+
+.ACG-list3 p {
+  padding: 5px;
+  overflow: auto;
+  border-bottom: 1px solid #e5e5e5;
+  margin: 0 10px 5px 10px;
+  _height: 1%;
+}
+
+.ACG-list3 .ACG-list2left {
+  display: inline-block;
+  background-image: url(https://i2.bahamut.com.tw/acg/btn_left3.gif);
+  width: 120px;
+  height: 25px;
+  margin-right: 5px;
+  *display: inline;
+  zoom: 1;
+}
+
+.ACG-list3 .ACG-list2right {
+  display: inline-block;
+  background-image: url(https://i2.bahamut.com.tw/acg/btn_right3.gif);
+  width: 120px;
+  height: 25px;
+  *display: inline;
+  zoom: 1;
+}
+
+.ACG-list3 a:hover {
+  background-position: bottom;
+}
+
+.ACG-list3box {
+  clear: both;
+  margin: 0 10px;
+  border-bottom: 1px dashed #e5e5e5;
+  padding: 10px 0;
+  word-wrap: break-word;
+  overflow: auto;
+  _height: 1%;
+}
+
+.ACG-list3box img {
+  float: left;
+  border: 3px solid #e5e5e5;
+  max-height: 120px;
+  max-width: 120px;
+}
+
+.ACG-list3box a {
+  color: #0055aa;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.ACG-list3box strong {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.ACG-list3box span {
+  color: #FF0000;
+}
+
+.ACG-list3box ul {
+  margin-left: 130px;
+}
+
+/* ------好友名單區塊------ */
+.BH-list4 {
+  padding-bottom: 0;
+}
+
+.BH-list4 p {
+  padding: 10px 0 0 10px;
+  display: block;
+}
+
+
+/* ------最近簽到玩家作品評價區塊------ */
+.ACG-list4 {}
+
+.ACG-list4 p {
+  padding: 10px;
+  border-bottom: 1px dashed #e5e5e5;
+  overflow: auto;
+  _height: 1%;
+}
+
+.ACG-list4 img {
+  float: left;
+  margin-right: 5px;
+}
+
+/* ------相關新聞 + 最新心得 + 巴哈帳號直接玩 + 創意遊戲設計大賽作品------ */
+.ACG-rbox1 {}
+
+.ACG-rbox1 div {
+  padding: 10px 0;
+  margin: 0 10px;
+  border-bottom: 1px dotted #CCCCCC;
+  overflow: auto;
+  height: 1%;
+}
+
+.ACG-rbox1 img {
+  float: left;
+  border: 3px solid #e5e5e5;
+  margin: 5px 10px 0 0;
+  max-width: 120px;
+  max-height: 120px;
+}
+
+.ACG-rbox1 p {
+  margin-left: 135px;
+  padding-top: 7px;
+}
+
+.ACG-rbox1 a {
+  font-size: 15px;
+  color: #0055aa;
+  font-weight: bold;
+  display: block;
+}
+
+.ACG-rbox1 span {
+  color: #999999;
+  display: block;
+}
+
+/* ------玩家排行榜------ */
+.ACG-rbox2 {}
+
+.ACG-rbox2 div {
+  padding: 10px 0;
+  margin: 0 10px;
+  border-bottom: 1px dotted #CCCCCC;
+}
+
+.ACG-rbox2 img {
+  float: left;
+}
+
+.ACG-rbox2 p {
+  margin-left: 50px;
+}
+
+.ACG-rbox2 ul {
+  margin-left: 50px;
+}
+
+.ACG-rbox2 li {
+  display: inline;
+  margin-left: 5px;
+  background: url(https://i2.bahamut.com.tw/icon_list1.gif) no-repeat left center;
+  padding-left: 7px;
+}
+
+.ACG-rb2tt {
+  background-color: #f6f6f6;
+  padding: 3px;
+}
+
+.ACG-rb2tt span {
+  color: #FF0000;
+  font-weight: bold;
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+.ACG-rb2tt a {
+  font-size: 18px;
+}
+
+.ACG-rb2talk {
+  clear: both;
+  padding: 5px;
+  border: 1px solid #e5e5e5;
+}
+
+/* ------直接玩：最近玩過的遊戲------ */
+.ACG-playlist {
+  min-height: 100px;
+}
+
+.ACG-playlist ul {
+  padding-left: 30px;
+  list-style-type: decimal;
+  overflow: hidden;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+
+.ACG-playlist li {
+  border-bottom: 1px dotted #e5e5e5;
+  padding: 3px 0;
+  margin-right: 10px;
+}
+
+.ACG-playlist li:hover {}
+
+.ACG-playlist p {
+  float: right;
+  white-space: nowrap;
+  padding-left: 3px;
+}
+
+.ACG-playlist p:hover {}
+
+.ACG-playlist a {
+  word-break: break-all;
+  word-wrap: break-word;
+}
+
+.ACG-playlist a+a {
+  margin-left: 2px;
+}
+
+.ACG-playlist button {
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+  height: 20px;
+  padding: 0;
+  width: 35px;
+  margin-left: 2px;
+  text-align: center;
+  font-size: 11px;
+}
+
+.ACG-playlist button:hover {
+  background-color: #333333;
+  color: #FFFFFF;
+}
+
+.ACG-playlist .b1 {
+  background-color: #CBF7FF;
+}
+
+.ACG-playlist .b2 {
+  background-color: #faefd2;
+}
+
+.ACG-playlist .b3 {
+  background-color: #c7f9d3;
+}
+
+.ACG-playlistno {
+  text-align: center;
+  line-height: 50px;
+  padding: 10px;
+}
+
+.ACG-playlistno a {
+  color: #0055aa;
+}
+
+/* ------關聯資料 for WIKI內頁------ */
+.ACG-wikiright1 {}
+
+.ACG-wikiright1 p {
+  padding: 10px;
+}
+
+.ACG-wikiright1 a {
+  padding: 0 3px;
+}
+
+
+/* ------說明 for WIKI編輯內頁------ */
+.ACG-wikiright2 {
+  padding-bottom: 10px;
+}
+
+.ACG-wikiright2 ul {
+  padding: 10px 10px 0 30px;
+  list-style-type: decimal;
+}
+
+.ACG-wikiright2 img {}
+
+/* ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■ 平台首頁 ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■ */
+
+/* ------遊戲類型TAG------ */
+.ACG-maintag {
+  margin: 10px 0 7px 0;
+}
+
+.ACG-maintag li {
+  margin-bottom: 3px;
+}
+
+.ACG-maintag a {
+  white-space: nowrap;
+}
+
+/* ------首行表單區塊 + 詳細及清單切換------ */
+.ACG-mainop {
+  padding: 10px;
+  font-size: 13px;
+  overflow: auto;
+}
+
+.ACG-mainop span {
+  float: right;
+}
+
+.ACG-mainop input {
+  margin-left: 10px;
+}
+
+.ACG-mainop a {
+  display: inline-block;
+  width: 50px;
+  line-height: 22px;
+  height: 22px;
+  font-size: 13px;
+  background-color: #FFFFFF;
+  color: #117e96;
+  border: 1px solid #117e96;
+  text-align: center;
+  margin: 0 0 0 3px;
+  font-weight: normal;
+}
+
+.ACG-mainop a:hover {
+  background-color: #117e96;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.ACG-mainop .ACG-mainh4now {
+  background-color: #117e96;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+
+/* ------主要內容區塊------ */
+
+.ACG-mainbox1 {
+  padding: 20px 10px 6px 10px;
+  overflow: auto;
+  background: url(https://i2.bahamut.com.tw/acg/acg-mianbg.jpg) repeat-x bottom;
+}
+
+.ACG-mainbox2 {}
+
+.ACG-mainbox2 p {
+  padding: 5px 0 0 0;
+  clear: both;
+  text-align: right;
+}
+
+.ACG-mainbox2A img {
+  margin-left: 10px;
+  max-height: 120px;
+  max-width: 120px;
+}
+
+.ACG-mainbox2A p {
+  margin-left: 15px;
+  margin-top: 7px;
+  float: right;
+}
+
+.ACG-mainbox2A a {}
+
+.ACG-mainbox2B {
+  display: table-cell;
+  margin-top: 7px;
+  width: 120px;
+  height: 120px;
+  background-color: #FFFFFF;
+  text-align: center;
+  vertical-align: middle;
+  float: left;
+  border: 5px solid #6699CC;
+}
+
+.ACG-mainbox2B span {
+  display: inline-block;
+  height: 100%;
+}
+
+.ACG-mainbox2B img {
+  margin: 0;
+}
+
+.ACG-mainbox2B * {
+  vertical-align: middle;
+}
+
+.ACG-mainbox2B a {
+  line-height: 0;
+  font-size: 0;
+}
+
+.ACG-mainbox2 ul {
+  font-size: 13px;
+  line-height: 16px;
+  color: #666666;
+  display: block;
+}
+
+.ACG-mainbox2 li {
+  display: inline-block;
+  background: url(https://i2.bahamut.com.tw/acg/icon_triangle.gif) no-repeat left 10px;
+  padding: 5px 5px 0 7px;
+  white-space: nowrap;
+  *display: inline;
+  zoom: 1;
+}
+
+.ACG-mainbox2 a {
+  color: #0055aa;
+  text-decoration: underline;
+}
+
+.ACG-mainbox3 {
+  width: 176px;
+  float: right;
+  margin: 0 0 0 10px;
+  border: 1px solid #cee2f5;
+}
+
+.ACG-mainbox3 p {
+  display: block;
+  font-size: 12px;
+  text-align: center;
+  float: left;
+  width: 50px;
+  padding: 1px 0;
+  line-height: 13px;
+  background-color: #eef7ff;
+  border: 1px solid #FFFFFF;
+}
+
+.ACG-mainbox3 span {
+  display: block;
+  color: #FF0000;
+  font-size: 11px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.ACG-mainbox3 .ACG-mainboxpoint {
+  width: 70px;
+  float: right;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 56px;
+  color: #FF0000;
+  background-color: #FFFFFF;
+  border-left: 1px solid #cee2f5;
+}
+
+.ACG-mainbox4 {
+  display: flex;
+  flex-direction: row-reverse;
+  float: right;
+  margin: 0 0 0 10px;
+  border: 1px solid #cee2f5;
+}
+
+.ACG-mainbox4 .ACG-mainplay {
+  min-width: 56px;
+  background-color: #eef7ff;
+  text-align: center;
+  font-size: 12px;
+  padding: 5px 7px 7px 7px;
+}
+
+.ACG-mainplay span {
+  color: #FF0000;
+  font-size: 26px;
+  display: block;
+  font-weight: bold;
+  padding-top: 3px;
+}
+
+.ACG-mainbox4 .ACG-mainboxpoint {
+  min-width: 70px;
+  float: right;
+  border-left: 1px solid #cee2f5;
+  text-align: center;
+  background-color: #FFFFFF;
+  font-size: 12px;
+  padding: 5px 0 7px 0;
+}
+
+.ACG-mainboxpoint span {
+  font-size: 26px;
+  font-weight: bold;
+  color: #FF0000;
+  display: block;
+  padding-top: 3px;
+}
+
+.ACG-mainboxpoint span.is-count {
+  font-size: 14px;
+  color: #b3b3b3;
+  font-weight: 400;
+}
+
+.ACG-maintitle {
+  margin-bottom: 2px;
+  overflow: hidden;
+  white-space: nowrap;
+  _width: 330px;
+  line-height: 24px;
+}
+
+.ACG-maintitle a {
+  color: #0055aa;
+  font-weight: bold;
+  font-size: 19px;
+  text-decoration: none;
+}
+
+.ACG-maintitle .ACG-play {
+  display: inline-block;
+  background: url(https://i2.bahamut.com.tw/acg/wanaplay.png);
+  width: 17px;
+  height: 14px;
+  margin-left: 5px;
+}
+
+.ACG-maintitle .ACG-play:hover {
+  background-image: url(https://i2.bahamut.com.tw/acg/wanaplay.gif);
+}
+
+.ACG-mainumber {
+  color: #FF0000;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+/* ------清單式表格------ */
+.ACG-table1 {
+  width: 97%;
+  margin: 10px auto;
+  border: 3px solid #d2e2e9;
+  font-size: 13px;
+}
+
+.ACG-table1 td {
+  border: 1px solid #d2e2e9;
+  text-align: center;
+}
+
+.ACG-table1 .ACG-tb1left {
+  text-align: left;
+}
+
+/*------ API授權確認頁 2015/08/26 ------ */
+.NAPI-wrapper {
+  background-color: #fff;
+  border-radius: 10px;
+  font-family: "微軟正黑體", Arial;
+  font-size: 16px;
+  overflow: hidden;
+  width: 600px;
+  margin: 0 auto;
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  align-items: center;
+}
+
+.NAPI-wrapper a {
+  color: #009cad;
+}
+
+.NAPI-header {
+  background-color: #159dad;
+  color: #fff;
+  height: 50px;
+  width: 100%;
+}
+
+.NAPI-header i {
+  display: block;
+  width: 100px;
+  height: 50px;
+  background-image: url("https://i2.bahamut.com.tw/logo.png");
+  float: left;
+  margin-right: 10px;
+}
+
+.NAPI-header h1 {
+  margin: 0;
+  float: left;
+  line-height: 50px;
+}
+
+.NAPI-header span {
+  float: right;
+  font-size: 0.8rem;
+  margin: 15px 15px 0 0;
+}
+
+.NAPI-header a {
+  color: #ffff00;
+}
+
+.NAPI-main {
+  padding: 20px;
+  flex-grow: 1;
+  line-height: 1.6;
+  max-width: 440px;
+}
+
+.NAPI-main h2 {
+  margin: 0;
+  padding-bottom: 15px;
+}
+
+.NAPI-main img {
+  width: 30px;
+  vertical-align: sub;
+  margin-left: 10px;
+}
+
+.NAPI-main p {
+  margin: 0;
+}
+
+.NAPI-main p:nth-of-type(1) {
+  margin-bottom: 15px;
+}
+
+.NAPI-main input {
+  width: 20px;
+  height: 20px;
+  vertical-align: sub;
+}
+
+.NAPI-main b {
+  font-weight: normal;
+  margin-right: 20px;
+}
+
+.NAPI-main i {
+  color: #eb6100;
+  margin-left: 5px;
+}
+
+.NAPI-pic {
+  width: 180px;
+  height: 180px;
+  padding: 20px;
+}
+
+.NAPI-agree {
+  width: 100%;
+  background-color: #f6f6f6;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.NAPI-agree input {
+  padding: 7px 25px;
+  font-size: 1rem;
+  font-family: "微軟正黑體";
+  margin: 0 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  -webkit-appearance: none;
+}
+
+@media screen and (max-device-width:600px) {
+  .NAPI-wrapper {
+    width: 95%;
+  }
+
+  .NAPI-header {
+    order: 1;
+    -webkit-order: 1;
+    position: relative;
+  }
+
+  .NAPI-header span {
+    position: absolute;
+    right: 10px;
+    bottom: -30px;
+    color: #464646;
+    margin: 0;
+    font-size: 1rem;
+  }
+
+  .NAPI-header a {
+    color: #009cad;
+  }
+
+  .NAPI-pic {
+    order: 2;
+    -webkit-order: 2;
+    width: 100%;
+    position: relative;
+    padding-top: 30px;
+  }
+
+  .NAPI-pic:after {
+    content: "";
+    display: block;
+    width: 80%;
+    height: 1px;
+    background-color: #e5e5e5;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -40%;
+  }
+
+  .NAPI-pic img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .NAPI-main {
+    order: 3;
+    -webkit-order: 3;
+    width: 100%;
+    padding: 20px 10px;
+  }
+
+  .NAPI-main p:nth-of-type(2) {
+    margin-bottom: 10px;
+  }
+
+  .NAPI-main b {
+    display: block;
+  }
+
+  .NAPI-agree {
+    order: 4;
+    -webkit-order: 4;
+  }
+
+  .NAPI-main i {
+    display: none;
+  }
+}
+
+
+/*------新版 索取序號頁(A虛寶)------ */
+.GGS-wrapper {
+  background-color: #fff;
+  border-radius: 10px;
+  font-family: "微軟正黑體", Arial;
+  font-size: 16px;
+  overflow: hidden;
+  width: 600px;
+  margin: 0 auto;
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  align-items: center;
+  align-items: flex-start;
+}
+
+.GGS-wrapper a {
+  color: #009cad;
+}
+
+.GGS-header {
+  background-color: #159dad;
+  color: #fff;
+  height: 50px;
+  width: 100%;
+}
+
+.GGS-header i {
+  display: block;
+  width: 100px;
+  height: 50px;
+  background-image: url("https://i2.bahamut.com.tw/logo.png");
+  float: left;
+  margin-right: 10px;
+}
+
+.GGS-header h1 {
+  margin: 0;
+  float: left;
+  line-height: 50px;
+}
+
+.GGS-wrapper h2 {
+  margin: 0;
+  width: 100%;
+  padding: 10px 10px 0 10px;
+}
+
+.GGS-main {
+  margin: 20px;
+  padding-bottom: 10px;
+  line-height: 1.6;
+  width: 100%;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.GGS-main p:first-child {
+  float: right;
+  margin: 0;
+}
+
+.GGS-main p+p {
+  margin: 0;
+  float: left;
+  max-width: 370px;
+}
+
+.GGS-txt {
+  width: 100%;
+  padding: 0 20px 20px 20px;
+  line-height: 1.5;
+}
+
+.GGS-agree {
+  width: 100%;
+  background-color: #f6f6f6;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.GGS-agree input {
+  padding: 7px 25px;
+  font-size: 1rem;
+  font-family: "微軟正黑體";
+  margin: 0 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  -webkit-appearance: none;
+}
+
+.GGS-agree span {
+  display: block;
+  clear: both;
+  color: #ff0000;
+  text-align: center;
+  padding-top: 10px;
+}
+
+@media screen and (max-width:600px) {
+  .GGS-wrapper {
+    width: 95%;
+  }
+
+  .GGS-header {
+    position: relative;
+  }
+
+  .GGS-wrapper h2 {}
+
+  .GGS-main {
+    margin-top: 0;
+  }
+
+  .GGS-main p:first-child {
+    float: none;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .GGS-main p+p {
+    float: none;
+    max-width: 100%;
+  }
+
+  .GGS-main {
+    width: 100%;
+    padding: 20px 10px;
+  }
+
+  .GGS-agree {}
+}
+
+
+/* --------------------------------------------攻略搜尋結果-------------------------------------------- */
+a:link.wiki_searchlink1 {
+  color: #FF0000;
+}
+
+a:visited.wiki_searchlink1 {
+  color: #FF0000;
+}
+
+a:hover.wiki_searchlink1 {
+  color: #FF0000;
+  text-decoration: underline;
+}
+
+ol.wiki_searchlist {
+  padding-left: 30px;
+  list-style: disc;
+}
+
+ol.wiki_searchlist li {
+  line-height: 24px;
+}
+
+ol.wiki_searchlist li a:link {
+  font-size: 15px;
+}
+
+ol.wiki_searchlist li a:visited {
+  font-size: 15px;
+}
+
+a:link.wiki_searchlink2 {
+  color: #0489aa;
+}
+
+a:visited.wiki_searchlink2 {
+  color: #0489aa;
+}
+
+a:hover.wiki_searchlink2 {
+  color: #0489aa;
+  text-decoration: underline;
+}
+
+
+/* --------------------------------------------20160422-動畫瘋宣傳區塊-------------------------------------------- */
+.ACG-list5 {
+  border: #e5e5e5 1px solid;
+  margin-bottom: 10px;
+  padding: 12px 14px;
+  overflow: auto;
+  background: #FFF;
+}
+
+.ACG-list5 img {
+  float: left;
+}
+
+.seasonACG {
+  margin-bottom: 10px;
+}
+
+.seasonACG_edition_name {
+  font-weight: 500;
+}
+
+.seasonACG ul {
+  width: 100%;
+  background: #fff;
+  display: inline-flex;
+  padding-top: 5px;
+}
+
+.seasonACG li a {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #bbb;
+  display: block;
+  line-height: 40px;
+  text-align: center;
+  margin: 4px;
+  position: relative;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+.seasonACG li a:hover {
+  background: #00B4D8;
+  color: #fff;
+}
+
+
+/*------------------------------------201808-新增 相關商品區塊＋別人也會玩＋相關公會--------------------------------------*/
+.acg-related {
+  padding: 10px;
+  font-size: 14px;
+}
+
+.acg-related ul {
+  overflow: hidden;
+}
+
+.acg-related li {
+  float: left;
+  margin: 0 6px;
+}
+
+.acg-related li a {
+  display: block;
+  width: 155px;
+  overflow: hidden;
+}
+
+.acg-related .otherplay {
+  color: #0055aa;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.acg-related li a:hover {
+  text-decoration: none;
+  color: #0055aa;
+}
+
+.acg-related .info_img {
+  width: 150px;
+  height: 150px;
+  background: black;
+  display: flex;
+  margin-bottom: 9px;
+}
+
+.acg-related img {
+  max-width: 150px;
+  max-height: 150px;
+  margin: auto;
+}
+
+.acg-related_guild {
+  display: flex;
+  justify-content: space-between;
+}
+
+.guild_information {
+  display: flex;
+}
+
+.acg-related_guild .guild_info_img {
+  width: 150px;
+  height: 150px;
+  background: black;
+  display: flex;
+  margin-right: 8px;
+}
+
+.acg-related_guild img {
+  max-width: 150px;
+  max-height: 150px;
+  margin: auto;
+}
+
+.acg-related_guild .guild_info {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  padding: 5px;
+  justify-content: space-between;
+}
+
+.acg-related_guild .guild_info .title {
+  color: #0055aa;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+  line-height: 25px;
+  cursor: pointer;
+}
+
+.acg-related .more {
+  text-align: right;
+  border-top: 1px solid #e5e5e5;
+  padding-top: 8px;
+  margin-top: 10px;
+}
+
+
+/*------------------------------------202203-新增 遊戲標題下的遊戲平台顯示--------------------------------------*/
+.gaming_platform {
+  display: flex;
+  height: 20px;
+}
+
+.gaming_platform .platform_logo {
+  margin-right: 6px;
+}
+
+.gaming_platform .platform_logo img {
+  height: 100%;
+}
+
+.gaming_platform .platform_logo img:nth-child(2) {
+  display: none;
+}
+
+.gaming_platform .platform_logo.is-select img:nth-child(1) {
+  display: none;
+}
+
+.gaming_platform .platform_logo.is-select img:nth-child(2) {
+  display: block;
+}
+
+/*------------------------------------RWD調整-------------------------------------------*/
+@media screen and (max-width: 768px) {
+  .ACG-box1-left {
+    display: block;
+    float: none;
+    margin: 8px auto 0;
+    width: 250px;
+  }
+
+  #ACG-box1pic {
+    float: none;
+  }
+
+  .ACG-box1listA {
+    margin-left: 4px;
+    width: calc(100% - 8px);
+  }
+
+  .ACG-mster_box1 h1 {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+  }
+
+  .ACG-mster_box1 h2 {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+  }
+
+  .ACG-box1listB {
+    margin-left: 4px;
+    width: calc(100% - 8px);
+  }
+
+  #ACG-box1mark {
+    width: calc(100% - 8px);
+  }
+}
